@@ -19,4 +19,4 @@ Python and Ruby solutions, thus far, don't use third-party libraries, so you sho
 
 ## Work in progress:
 
-The most mature solutions are in Python. I'll add mroe solutions and improve upon earlier ones as time permits.
+The most mature solutions are in Python. I'll add more solutions and improve upon earlier ones as time permits.
