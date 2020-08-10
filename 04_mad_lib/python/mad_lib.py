@@ -1,21 +1,17 @@
-def get_noun():
-    noun = input("Enter a noun: ")
-    return noun
-
-
 def get_verb():
-    verb = input("Enter a verb: ")
-    return verb
+    return input("Enter a verb: ")
 
 
 def get_adjective():
-    adjective = input("Enter an adjective: ")
-    return adjective
+    return input("Enter an adjective: ")
+
+
+def get_noun():
+    return input("Enter a noun: ")
 
 
 def get_adverb():
-    adverb = input("Enter an adverb: ")
-    return adverb
+    return input("Enter an adverb: ")
 
 
 def print_results(verb, adjective, noun, adverb):
@@ -23,7 +19,7 @@ def print_results(verb, adjective, noun, adverb):
 
 
 def main():
-    print_results(get_noun(), get_verb(), get_adverb(), get_adjective())
+    print_results(get_verb(), get_adjective(), get_noun(), get_adverb())
 
 
 if __name__ == "__main__":

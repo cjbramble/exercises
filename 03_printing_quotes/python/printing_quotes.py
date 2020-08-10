@@ -1,11 +1,9 @@
 def get_person():
-    person = input("Who said it? ")
-    return person
+    return input("Who said it? ")
 
 
 def get_quote():
-    quote = input("What is your quote? ")
-    return quote
+    return input("What is your quote? ")
 
 
 def print_results(person, quote):

@@ -1,21 +1,17 @@
 def get_length():
-    length = int(input("What is the length of the room in feet? "))
-    return length
+    return int(input("What is the length of the room in feet? "))
 
 
 def get_width():
-    width = int(input("What is the width of the room in feet? "))
-    return width
+    return int(input("What is the width of the room in feet? "))
 
 
 def calculate_area_in_feet(width, length):
-    area_in_feet = width * length
-    return area_in_feet
+    return width * length
 
 
 def calculate_area_in_meters(area_in_feet):
-    area_in_meters = area_in_feet * 0.09290304
-    return area_in_meters
+    return area_in_feet * 0.09290304
 
 
 def print_area_in_feet(length, width):

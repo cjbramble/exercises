@@ -1,11 +1,9 @@
 def get_first_number():
-    first_number = int(input("What is the first number? "))
-    return first_number
+    return int(input("What is the first number? "))
 
 
 def get_second_number():
-    second_number = int(input("What is the second number? "))
-    return second_number
+    return int(input("What is the second number? "))
 
 
 def print_results(first_number, second_number):

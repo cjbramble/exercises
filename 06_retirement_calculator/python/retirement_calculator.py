@@ -2,24 +2,20 @@ import datetime
 
 
 def get_current_age():
-    current_age = int(input("What is your current age? "))
-    return current_age
+    return int(input("What is your current age? "))
 
 
 def get_age_to_retire():
-    age_to_retire = int(input("At what age would you like to retire? "))
-    return age_to_retire
+    return int(input("At what age would you like to retire? "))
 
 
 def calculate_years_to_retire(age_to_retire, current_age):
-    years_to_retire = age_to_retire - current_age
-    return years_to_retire
+    return age_to_retire - current_age
 
 
 def get_current_year():
     now = datetime.datetime.now()
-    current_year = now.year
-    return current_year
+    return now.year
 
 
 def print_years_to_retire(years_to_retire):
